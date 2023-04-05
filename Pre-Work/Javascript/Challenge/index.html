@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./calculator.js"></script>
+    <title>Challenge Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="input">
+            <input type="text" id="output" disabled>
+        </div>
+        <div class="buttons">
+            <div class="buttons-first-row">
+                <button onclick="appendToOutput('1')">1</button>
+                <button onclick="appendToOutput('2')">2</button>
+                <button onclick="appendToOutput('3')">3</button>
+                <button onclick="appendToOutput('+')">+</button>
+            </div>
+            <div class="buttons-second-row">
+                <button onclick="appendToOutput('4')">4</button>
+                <button onclick="appendToOutput('5')">5</button>
+                <button onclick="appendToOutput('6')">6</button>
+                <button onclick="appendToOutput('-')">-</button>
+            </div>
+            <div class="buttons-third-row">
+                <button onclick="appendToOutput('7')">7</button>
+                <button onclick="appendToOutput('8')">8</button>
+                <button onclick="appendToOutput('9')">9</button>
+                <button onclick="appendToOutput('*')">*</button>
+            </div>
+            <div class="buttons-fourth-row">
+                <button onclick="clearOutput()">C</button>
+                <button onclick="appendToOutput('0')">0</button>
+                <button onclick="calculateOutput()">=</button>
+                <button onclick="appendToOutput('/')">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

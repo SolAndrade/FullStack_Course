@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calculator {
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.input input{
+    height: 40px;
+    width: 90%;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+.buttons-first-row, .buttons-second-row, .buttons-third-row, .buttons-fourth-row {
+    width: 100%;
+    display: flexbox;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 34px;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+    margin: 10px 2px 2px 2px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
