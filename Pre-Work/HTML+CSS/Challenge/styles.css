@@ -1,0 +1,84 @@
+pink {
+    color: #ff00ff;
+}
+
+strong {
+    font-weight: bold;
+}
+
+pinkunderline {
+    color: #ff00ff;
+    text-decoration: underline;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+    border-bottom: 1px dashed black;
+}
+
+underline {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Verdana;
+    background-color: lightgrey;
+}
+
+header {
+    background-color: white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: lightpink;
+}
+
+header h4 {
+    color: grey;
+}
+
+main {
+    display: flex;
+}
+
+main .main-left-column {
+    width: 70%;
+    margin-right: 40px;
+}
+
+main .main-left-column .main-left-column-design, .main-left-column-resources, .main-left-column-archives {
+    width: 100%;
+}
+
+main .main-left-column .main-left-column-resources,
+.main-left-column-archives,
+.main-left-column-design,
+.main-right-column-intro,
+.main-right-column-roadenlightment,
+.main-right-column-whatabout,
+.main-right-column-participation,
+.main-right-column-benefits {
+    background-color: white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 4px 15px 10px;
+    margin: 10px 10px 10px 0px;
+    background-image: url('./img/doodad.png');
+}
+
+main .main-left-column .main-left-column-resources,
+.main-left-column-archives,
+.main-left-column-design p {
+    font-size: 12px;
+    margin: 8px 0px 5px 0px;
+}
+
+main .main-right-column-intro,
+.main-right-column-whatabout,
+.main-right-column-benefits {
+    padding-left: 10%;
+}
