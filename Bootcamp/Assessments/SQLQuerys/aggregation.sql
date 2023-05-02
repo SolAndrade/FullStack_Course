@@ -1,0 +1,1 @@
+SELECT avg(balance), account_type from accounts group by account_type;

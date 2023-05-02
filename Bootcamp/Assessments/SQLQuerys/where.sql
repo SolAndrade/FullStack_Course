@@ -1,0 +1,1 @@
+SELECT customer_name, balance FROM accounts WHERE account_type='checking';
