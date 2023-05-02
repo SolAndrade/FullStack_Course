@@ -1,0 +1,1 @@
+SELECT AVG(total_aircraft_seats) as avg_seats FROM flight;

@@ -1,0 +1,1 @@
+SELECT AVG(flight_mileage) as avg_flight_distance FROM flight;
