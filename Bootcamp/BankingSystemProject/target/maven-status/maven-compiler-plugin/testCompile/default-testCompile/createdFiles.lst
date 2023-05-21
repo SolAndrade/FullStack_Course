@@ -1,0 +1,11 @@
+test\java\com\banking\controllers\UserControllerTest.class
+test\java\com\banking\models\AddressTest.class
+test\java\com\banking\models\ThirdPartyTest.class
+test\java\com\banking\models\UserTest.class
+test\java\com\banking\models\CreditCardTest.class
+test\java\com\banking\controllers\AccountControllerTest.class
+test\java\com\banking\models\SavingsAccountTest.class
+test\java\com\banking\models\TransactionTest.class
+test\java\com\banking\models\StudentCheckingAccountTest.class
+test\java\com\banking\models\AccountTest.class
+test\java\com\banking\models\CheckingAccountTest.class
