@@ -1,0 +1,3 @@
+com\example\studentinfoservice\model\Student.class
+com\example\studentinfoservice\repository\StudentRepository.class
+com\example\studentinfoservice\StudentInfoServiceApplication.class
