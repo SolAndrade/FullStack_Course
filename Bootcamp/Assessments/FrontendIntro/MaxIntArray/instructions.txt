@@ -1,0 +1,13 @@
+Find max in an array of numbers
+Context
+This challenge tests your basic understanding of data types, conditionals, loops and functions.
+
+Requirements
+Create a function named maxOfArray that receives an array of numbers as an argument. The function should return the greatest number out of the numbers provided in the array.
+
+Sample Input/Output:
+input: [1, 2, 3, 4]
+output: 4
+
+input: [1, 2, 3, -4]
+output: 3

@@ -1,0 +1,16 @@
+Calculate sum of an array of numbers
+Context
+This challenge tests your basic understanding of data types, conditionals, loops and functions.
+
+Requirements
+Create a function named sumArray that receives an array of numbers as an argument. The function should return the sum of all the numbers in the array.
+
+Sample Input/Output:
+input: [1, 2, 3, 4]
+output: 10
+
+input: [1, 2, 3, -4]
+output: 2
+
+input: [10, 5, 15]
+output: 30

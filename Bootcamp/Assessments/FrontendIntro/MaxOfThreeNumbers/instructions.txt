@@ -1,0 +1,16 @@
+Find max of three numbers
+Context
+This challenge tests your basic understanding of data types, conditionals and functions.
+
+Requirements
+Create a function named maxOfThreeNumbers that receives any three numbers as arguments. The function should return the greatest number out of three numbers provided.
+
+Sample Input/Output:
+input: 19, 88, 12
+output: 88
+
+input: 12, -3, 0
+output: 12
+
+input: -7, -55, -3
+output: -3

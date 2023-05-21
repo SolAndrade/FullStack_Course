@@ -1,0 +1,13 @@
+Find max of two numbers
+Context
+This challenge tests your basic understanding of comparison operators, conditionals and functions.
+
+Requirements
+Create a function named maxOfTwoNumbers that receives any two number as arguments. The function should compare two numbers and return the greater number.
+
+Sample Input/Output:
+input: 11, 19
+output: 19
+
+input: -7, -55
+output: -7

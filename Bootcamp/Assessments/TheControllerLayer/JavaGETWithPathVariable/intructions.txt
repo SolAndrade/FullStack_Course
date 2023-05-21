@@ -1,0 +1,56 @@
+Challenge: Spring Controller Part III
+Note that the Set Up is the same as the previous challenge but the specifications are not.
+
+Set Up
+In this application, there exists a Book class of the form:
+
+@Entity
+class Book {
+
+  @Id 
+  @NotNull
+  private final Integer isbn;
+  @NotNull
+  private final String title;
+  @NotNull
+  private final String author;
+
+  public Book(Integer isbn, String title, String author) {
+      this.isbn = isbn;
+      this.title = title;
+      this.author = author;
+  }
+
+  public Integer getIsbn() {
+      return isbn;
+  }
+
+  public String getTitle() {
+      return title;
+  }
+
+  public String getAuthor() {
+      return author;
+  }
+}
+Note: You cannot see this class but it exists in the project
+
+There also exists a BookRepository of the form:
+
+@Repository
+public interface BookRepository extends JpaRepository<Book, Integer> {
+    List<Book> findByTitle(String title);
+    List<Book> findByAuthor(String author);
+    List<Book> findByTitleContaining(String title);
+    Book findByIsbn(int isbn);
+    Book findByTitleAndAuthor(String title, String author);
+}
+Note: You cannot see this Repository but it exists in the project
+
+Specifications
+Create a GET route with the path /books/{isbn} .
+
+The path variable must be named isbn and the method parameter must be named bookIsbn. You should know how to handle path variables and method parameters with different names.
+
+When hit, the route should return a 200 status and the Book with a matching isbn.
+

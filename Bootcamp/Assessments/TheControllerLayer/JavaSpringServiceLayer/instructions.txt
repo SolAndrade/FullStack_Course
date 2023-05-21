@@ -1,0 +1,50 @@
+Challenge: Prescription Service
+In this challenge, you will build an application to help pharmacies fill prescriptions.
+
+There is a database of doctors and a database of drugs. You will leverage these databases to build prescriptionOrderForms.
+
+When a patient is issued a prescription, the patient's name, weight, drugId and doctorId are sent to the Controller which then calls the fillOrder method in the Prescription service.
+
+The fillOrder method
+
+retrieves the drug name and dosageRate from the database and the doctor's name from the database
+calculates the correct dosage based on patient weight and dosageRate (weight * dosageRate)
+returns a PrescriptionOrderForm to object with the patient name, doctor name, dosage and drug name
+Set Up
+The following repositories and models exist on the project You do not need to build these. They already exist:
+
+Repositories
+@Repository
+public interface DoctorRepository extends JpaRepository<Doctor, Integer> {
+}
+@Repository
+public interface DrugRepository extends JpaRepository<Drug, Integer> {
+}
+Entities
+@Entity
+public class Doctor{
+  private int id;
+  private String name; 
+}
+@Entity
+public class Drug{
+  private int id;
+  private String name; 
+  private double dosageRate; 
+}
+DTO
+
+public class PrescriptionOrderForm{
+  private String patientName;
+  private String doctorName; 
+  private String drugName; 
+  private double dosage;
+}
+Payload from Controller
+
+public class Order{
+  private String patientName;
+  private double patientWeight; 
+  private int doctorId; 
+  private int drugId;
+}

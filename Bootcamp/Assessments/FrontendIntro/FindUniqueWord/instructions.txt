@@ -1,0 +1,17 @@
+Find unique word
+Context
+This challenge tests your basic understanding of primitive data types, arrays, conditionals, loops and functions.
+
+Requirements
+Create a function named findUnique that receives an array of words as an argument.
+The function should return the first found unique (non-repeating) word.
+
+Sample Input/Output:
+input: ['ana', 'ivan', 'jan', 'ana', 'jan']
+output: 'ivan'
+
+input: ['fizz', 'foo', 'bar', 'bazz', 'fizz', 'bazz']
+output: 'foo'
+
+input: ['apple', 'pear', 'strawberries', 'pineapple']
+output: 'apple'

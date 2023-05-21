@@ -1,0 +1,13 @@
+Check if number is even
+Context
+This challenge tests your basic understanding of data types, conditionals and functions.
+
+Requirements
+Create a function named isEven that receives a number as an argument. The function should check the number and return true if number is even or false if it's not.
+
+Sample Input/Output:
+input: 4
+output: true
+
+input: 3
+output: false

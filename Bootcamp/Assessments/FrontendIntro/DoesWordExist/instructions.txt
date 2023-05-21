@@ -1,0 +1,17 @@
+Does word exist
+Context
+This challenge tests your basic understanding of primitive data types, arrays, conditionals, loops and functions.
+
+Requirements
+Create a function named doesWordExist that receives two arguments:
+
+an array of strings and
+a string with the word we want to check if it exists in that array.
+The function should returntrue/false depending on if the word exists in the array or not.
+
+Sample Input/Output:
+input: doesWordExist( ['ana', 'jan', 'nick'], 'jan' )
+output: true
+
+input: doesWordExist( ['apple', 'pear', 'strawberries', 'pineapple'], 'banana' )
+output: false

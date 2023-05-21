@@ -1,0 +1,18 @@
+Find the longest string
+Context
+This challenge tests your basic understanding of data types, conditionals, loops and functions.
+
+Requirements
+Create a function named longestString that receives an array of strings as an argument.
+The function should return the longest string out of the array of provided strings.
+If the array contains more than one string of the same length, the first found longest string should be returned.
+
+Sample Input/Output:
+input: ['ana', 'ivan', 'jan', 'nick']
+output: 'ivan'
+
+input: ['apple', 'pear', 'strawberries', 'mango']
+output: 'strawberries'
+
+input: ['foo', 'bar', 'baz']
+output: 'foo'

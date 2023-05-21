@@ -1,0 +1,17 @@
+Challenge: Validation Constraints
+For this challenge, you may use the official Javax Validation Constraint site. You may not visit any additional websites.
+
+Create a MenuItem class.
+
+The MenuItem class should have four private variables and include all getters and setters:
+
+id - a unique integer identifier
+name - the name of the menuItem
+price - a Big Decimal value
+year - an integer value of the year the item was added to the menu
+Using Validation Constraints enforce the following rules:
+
+No elements should be null
+The maximum allowable price should be 18.50
+The year can have at most 4 digits
+Remember that primitive values can never have a null value. To enforce the rule that elements should not be null on a primitive, you must use the appropriate wrapper class. Also. This class is NOT a model, do not add any other annotation related to models.
