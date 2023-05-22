@@ -1,0 +1,4 @@
+public enum House {
+    SLYTHERIN, GRYFFINDOR, HUFFLEPUFF, RAVENCLAW
+  }
+  
